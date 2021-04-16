@@ -1,35 +1,60 @@
 header{
   background-color: $second-background-color;
   color: $second-color;
-  .actions{
-    display: flex;
-    align-items: center;
-    .actions-list{
-      padding-top: 19px;
-      ul{
-        display: flex;
-        align-items: center;
-        li{
-          font-size: 0.8em;
-          a{
-            color: $second-color;
-            padding: 0 10px;
-            span{
-              padding-left: 4px;
+    .header-top{
+      .actions{
+        @include flex-align-center;
+        .actions-list{
+          padding-top: 19px;
+          ul{
+            display: flex;
+            li{
+              font-size: 0.7em;
+              a{
+                color: $second-color;
+                padding: 0 10px;
+                span{
+                  padding-left: 4px;
+                }
+                i{
+                  color: $third-color;
+                }
+              }
             }
-            i{
-              color: $third-color;
+          }
+        }
+        .languages-selection{
+          select{
+            font-size: 0.7em;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+    .header-bottom{
+      @include flex-align-center;
+      h3{
+        font-size: 1.3em;
+        font-weight: 300;
+      }
+      nav{
+        .nav-list{
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 11px;
+          ul{
+            @include flex-align-center;
+            li{
+              font-size: 0.8em;
+              font-weight: 300;
+              text-transform: capitalize;
+              padding: 0 20px;
+              a{
+                color: $second-color;
+              }
             }
           }
         }
       }
     }
-    .languages-selection{
-      select{
-        font-size: 0.8em;
-        text-transform: capitalize;
-      }
-    }
-  }
-
 }

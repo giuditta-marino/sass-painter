@@ -20,31 +20,56 @@ header {
   background-color: #000;
   color: #fff;
 }
-header .actions {
+header .header-top .actions {
   display: flex;
   align-items: center;
 }
-header .actions .actions-list {
+header .header-top .actions .actions-list {
   padding-top: 19px;
 }
-header .actions .actions-list ul {
+header .header-top .actions .actions-list ul {
   display: flex;
-  align-items: center;
 }
-header .actions .actions-list ul li {
-  font-size: 0.8em;
+header .header-top .actions .actions-list ul li {
+  font-size: 0.7em;
 }
-header .actions .actions-list ul li a {
+header .header-top .actions .actions-list ul li a {
   color: #fff;
   padding: 0 10px;
 }
-header .actions .actions-list ul li a span {
+header .header-top .actions .actions-list ul li a span {
   padding-left: 4px;
 }
-header .actions .actions-list ul li a i {
+header .header-top .actions .actions-list ul li a i {
   color: #009cff;
 }
-header .actions .languages-selection select {
-  font-size: 0.8em;
+header .header-top .actions .languages-selection select {
+  font-size: 0.7em;
   text-transform: capitalize;
+}
+header .header-bottom {
+  display: flex;
+  align-items: center;
+}
+header .header-bottom h3 {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+header .header-bottom nav .nav-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 11px;
+}
+header .header-bottom nav .nav-list ul {
+  display: flex;
+  align-items: center;
+}
+header .header-bottom nav .nav-list ul li {
+  font-size: 0.8em;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 0 20px;
+}
+header .header-bottom nav .nav-list ul li a {
+  color: #fff;
 }
