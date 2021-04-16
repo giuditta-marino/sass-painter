@@ -1,0 +1,35 @@
+header{
+  background-color: $second-background-color;
+  color: $second-color;
+  .actions{
+    display: flex;
+    align-items: center;
+    .actions-list{
+      padding-top: 19px;
+      ul{
+        display: flex;
+        align-items: center;
+        li{
+          font-size: 0.8em;
+          a{
+            color: $second-color;
+            padding: 0 10px;
+            span{
+              padding-left: 4px;
+            }
+            i{
+              color: $third-color;
+            }
+          }
+        }
+      }
+    }
+    .languages-selection{
+      select{
+        font-size: 0.8em;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+}

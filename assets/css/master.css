@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul.no-style {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+}
+header .actions {
+  display: flex;
+  align-items: center;
+}
+header .actions .actions-list {
+  padding-top: 19px;
+}
+header .actions .actions-list ul {
+  display: flex;
+  align-items: center;
+}
+header .actions .actions-list ul li {
+  font-size: 0.8em;
+}
+header .actions .actions-list ul li a {
+  color: #fff;
+  padding: 0 10px;
+}
+header .actions .actions-list ul li a span {
+  padding-left: 4px;
+}
+header .actions .actions-list ul li a i {
+  color: #009cff;
+}
+header .actions .languages-selection select {
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
