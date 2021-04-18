@@ -8,12 +8,23 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  max-width: 1000px;
+}
+
 ul.no-style {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding: 4px 18px;
+  background-color: none;
 }
 
 header {
@@ -51,25 +62,114 @@ header .header-bottom {
   display: flex;
   align-items: center;
 }
-header .header-bottom h3 {
-  font-size: 1.3em;
-  font-weight: 300;
-}
-header .header-bottom nav .nav-list {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 11px;
-}
-header .header-bottom nav .nav-list ul {
+header .header-bottom .title-nav {
   display: flex;
   align-items: center;
 }
-header .header-bottom nav .nav-list ul li {
+header .header-bottom .title-nav h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+header .header-bottom .title-nav nav .nav-list {
+  padding-top: 11px;
+}
+header .header-bottom .title-nav nav .nav-list ul {
+  display: flex;
+  align-items: center;
+}
+header .header-bottom .title-nav nav .nav-list ul li {
   font-size: 0.8em;
   font-weight: 300;
   text-transform: capitalize;
   padding: 0 20px;
 }
-header .header-bottom nav .nav-list ul li a {
+header .header-bottom .title-nav nav .nav-list ul li a {
   color: #fff;
+}
+
+.jumbo {
+  background-image: url("../img/bg-painter-home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+.jumbo img {
+  width: 210px;
+}
+.jumbo p.subtitle {
+  font-size: 1.1em;
+}
+.jumbo p.pink {
+  color: #c70eb8;
+  font-style: italic;
+}
+.jumbo p.pink.first {
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+.jumbo p.pink.second {
+  font-size: 1em;
+}
+.jumbo button.black {
+  background-color: #000;
+  color: #fff;
+  margin-right: 12px;
+  border: 2px solid #000;
+}
+.jumbo button.transparent {
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.contents {
+  background-color: #e8e8e8;
+}
+.contents .row.more-painting {
+  padding-bottom: 20px;
+  padding-top: 32px;
+}
+.contents .row.more-painting h2 {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.contents .row.products img {
+  width: 100%;
+}
+.contents .row.products .description {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+.contents .row.products .description h5 {
+  font-size: 1em;
+  padding-bottom: 7px;
+}
+.contents .row.products .description h5 span {
+  text-transform: uppercase;
+  color: #009cff;
+  font-style: italic;
+  padding-right: 4px;
+}
+.contents .row.products .description p {
+  font-size: 0.8em;
+}
+.contents .row.products .description a {
+  font-size: 0.8em;
+  color: #009cff;
+}
+.contents .row.main-products .image-first {
+  background-image: url("../img/wacom-painter.jpg");
+}
+.contents .row.main-products .image-second {
+  background-image: url("../img/painter-master.jpg");
+}
+.contents .row.main-products .image-third {
+  background-image: url("../img/business-education.jpg");
+}
+.contents .row.main-products .image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }

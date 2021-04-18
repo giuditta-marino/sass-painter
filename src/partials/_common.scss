@@ -8,10 +8,18 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.container{
+  max-width: 1000px;
+}
+
 ul.no-style{
   list-style: none;
 }
 
 a{
   text-decoration: none;
+}
+
+button{
+  @include button-style;
 }
