@@ -1,9 +1,17 @@
-.mt-50 {
+.pt-50 {
   margin-top: 50px;
 }
 
-mb-50 {
+.pt-35 {
+  padding-top: 35px;
+}
+
+.pb-50 {
   margin-bottom: 50px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
 }
 
 * {
@@ -133,14 +141,13 @@ header .header-bottom .title-nav nav .nav-list ul li a {
 .contents {
   background-color: #e8e8e8;
 }
-.contents .row.more-painting {
-  padding-bottom: 20px;
-  padding-top: 32px;
-}
 .contents .row.more-painting h2 {
   text-align: center;
   font-size: 1.6em;
   font-weight: 400;
+}
+.contents .row.products {
+  margin: 0 -30px;
 }
 .contents .row.products img {
   width: 100%;
@@ -197,9 +204,51 @@ header .header-bottom .title-nav nav .nav-list ul li a {
 .contents .row.main-products .image-first {
   background-image: url("../img/wacom-painter.jpg");
 }
+.contents .row.main-products .image-first img {
+  padding-top: 15px;
+  width: 360px;
+}
 .contents .row.main-products .image-second {
   background-image: url("../img/painter-master.jpg");
 }
 .contents .row.main-products .image-third {
   background-image: url("../img/business-education.jpg");
+}
+.contents .row.actions-list ul li {
+  font-size: 0.7em;
+  line-height: 2.2em;
+}
+.contents .row.actions-list .social {
+  display: flex;
+}
+.contents .row.actions-list .social .social-box {
+  width: 28px;
+  height: 28px;
+  margin-right: 7px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contents .row.actions-list .social .social-box i {
+  color: #fff;
+  font-size: 1.2em;
+}
+.contents .row.actions-list .social .social-box.ig {
+  background-color: #e4405f;
+}
+.contents .row.actions-list .social .social-box.fb {
+  background-color: #3b5998;
+}
+.contents .row.actions-list .social .social-box.tw {
+  background-color: #1da1f2;
+}
+.contents .row.actions-list .social .social-box.yt {
+  background-color: #cd201f;
+}
+.contents .row.actions-list .social .social-box.pi {
+  background-color: #bd081c;
+}
+.contents .row.actions-list .social .social-box.rss {
+  background-color: #ff8d00;
 }
