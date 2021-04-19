@@ -1,0 +1,10 @@
+button{
+  @include button-style;
+}
+
+@mixin btn-main {
+  color: #33336e;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+}

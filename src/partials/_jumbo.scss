@@ -1,8 +1,6 @@
 .jumbo{
   background-image: url('../img/bg-painter-home.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  @include background-cover;
   padding: 80px 0;
   img{
   width: 210px;

@@ -1,3 +1,11 @@
+.mt-50 {
+  margin-top: 50px;
+}
+
+mb-50 {
+  margin-bottom: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -136,6 +144,7 @@ header .header-bottom .title-nav nav .nav-list ul li a {
 }
 .contents .row.products img {
   width: 100%;
+  height: 155px;
 }
 .contents .row.products .description {
   width: 100%;
@@ -159,6 +168,32 @@ header .header-bottom .title-nav nav .nav-list ul li a {
   font-size: 0.8em;
   color: #009cff;
 }
+.contents .row.main-products .wacom-description, .contents .row.main-products .painter-description, .contents .row.main-products .business-description {
+  color: #fff;
+  padding-left: 35px;
+  padding-top: 50px;
+}
+.contents .row.main-products .wacom-description button, .contents .row.main-products .painter-description button, .contents .row.main-products .business-description button {
+  color: #33336e;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+}
+.contents .row.main-products .wacom-description {
+  background-color: #3c1567;
+}
+.contents .row.main-products .painter-description {
+  background-color: #3c3c3c;
+}
+.contents .row.main-products .business-description {
+  background-color: #009cff;
+}
+.contents .row.main-products .image {
+  height: 310px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .contents .row.main-products .image-first {
   background-image: url("../img/wacom-painter.jpg");
 }
@@ -167,9 +202,4 @@ header .header-bottom .title-nav nav .nav-list ul li a {
 }
 .contents .row.main-products .image-third {
   background-image: url("../img/business-education.jpg");
-}
-.contents .row.main-products .image {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
