@@ -1,0 +1,45 @@
+footer{
+  background-color: $first-color;
+  color: $second-color;
+
+  .logos{
+    @include flex-align-center;
+
+    .logo{
+      height: 50px;
+      padding: 0 7px;
+
+      img{
+        height: 100%;
+      }
+
+    }
+
+  }
+
+  .info{
+    @include  flex-align-center;
+    justify-content: space-between;
+
+    .privacy{
+
+      ul.no-style{
+        @include flex-align-center;
+
+        li{
+          font-size: 0.6em;
+          color: rgba(255, 255, 255, 0.6);
+          padding-right: 13px;
+        }
+
+      }
+
+    }
+
+    .copyright{
+      font-size: 0.7em;
+    }
+
+  }
+
+}
