@@ -1,31 +1,24 @@
-.pt-50{
-  margin-top: 50px;
+$padding-directions: pt, pb;
+@each $padding in $padding-directions {
+  @for $i from 1 through 10 {
+    .#{$padding}-#{$i*5} {
+      @if $padding == pt {
+        padding-top: 5px * $i;
+      } @else {
+        padding-bottom: 5px * $i;
+      }
+    }
+  }
 }
 
-.pt-35{
-  padding-top: 35px;
-}
-
-.pt-15{
-  padding-top: 15px;
-}
-
-.pb-50{
-  margin-bottom: 50px;
-}
-
-.pb-30{
-  padding-bottom: 30px;
-}
-
-.pb-20{
-  padding-bottom: 20px;
-}
-
-.pb-15{
-  padding-bottom: 15px;
-}
-
-.pb-5{
-  padding-bottom: 5px;
-}
+// @for $i from 1 to 10 {
+//   .pt-#{$i*5} {
+//     padding-top: 5px * $i;
+//   }
+// }
+//
+// @for $i from 1 to 10 {
+//   .pb-#{$i*5} {
+//     padding-top: 5px * $i;
+//   }
+// }
